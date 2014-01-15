@@ -9,16 +9,32 @@
 	color: #CC00AA;
 }
 
+body{
+     font-family: 'Gentium Book Basic', serif;
+}
+
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
-}
+
 
 .jumbotron {
 	position: relative;
 	background: none;
+}
+
+
+.project img{
+     margin: 10px;
+}
+
+.project p{
+     margin: 5px;
+}
+
+
+a{
+     text-decoration: none;
 }
 
 .jumbotron:after {
@@ -30,5 +46,5 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
